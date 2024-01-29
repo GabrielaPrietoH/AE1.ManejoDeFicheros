@@ -23,9 +23,6 @@ public class Main {
 		Controlador controlador = new Controlador();
 		Scanner leer = new Scanner(System.in);
 		
-		//Array para leer el fichero
-		//ArrayList<Articulo> listaArticulos = new ArrayList<>();
-		
 		
 		File fichero = new File(nombreFichero);
 		if(fichero.exists()) {
@@ -53,26 +50,8 @@ public class Main {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} 
-			
-			
-			
-			//System.out.println("Cerrando programa");
-			
-		
-			
-			
-			//2. para llenar una colección de tipo ArrayList con todos los 
-			//objetos ‘Articulo’ existentes en el fichero.
-			
-			
-		}else {
-			/*
-			 * Si no existe el archivo, no tendrás nada que hacer por el momento,
-				pero sí debes dejar la colección ArrayList disponible, aunque esté
-				vacía.
-			 */
-			//ArrayList<Articulo> listaArticulos = (ArrayList<Articulo>)ois.readObject();
 		}
+	
 
 		
 		String eleccion = "";
@@ -155,7 +134,7 @@ public class Main {
 					
 					ArrayList<Articulo> listaArt = controlador.getListaArticulos();
 					
-					//Si hay artículos lso imprime, sino lo avisa.
+					//Si hay artículos los imprime, sino lo avisa.
 					if(listaArt.isEmpty()) {
 						System.out.println("No hay artículos en el listado.");
 					}else {
@@ -188,8 +167,7 @@ public class Main {
 						System.out.println("Error al escribir en el archivo: " + e.getMessage());
 				} 
 			
-					
-					
+										
 					continuar = false;
 					
 					
@@ -215,4 +193,5 @@ public class Main {
 	}
 	
 }
+
 

@@ -14,20 +14,18 @@ public class DaoArticulo {
 		
 		
 		//artículos de prueba
-		
+		/*
 	    listaArticulos.add(new Articulo(++contador, "Artículo 1", "Descripción 1", 10, 100.0));
 	    listaArticulos.add(new Articulo(++contador, "Artículo 2", "Descripción 2", 20, 200.0));
 	    listaArticulos.add(new Articulo(++contador, "Artículo 3", "Descripción 3", 30, 300.0));
+	    */
 	    
-	    //añadir el array al fichero???
 	}
 	
 	//add
 	public void add(Articulo art) {
 		
-		art.setId(++contador);
-		listaArticulos.add(art);
-		/*
+				
 		if(art.getId() > contador) {
 			contador = art.getId();
 		}else {
@@ -35,7 +33,7 @@ public class DaoArticulo {
 			
 		}
 		listaArticulos.add(art);
-		 * */
+		 
 		 
 	}
 	

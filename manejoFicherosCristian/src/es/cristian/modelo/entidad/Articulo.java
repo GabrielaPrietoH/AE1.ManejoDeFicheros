@@ -4,9 +4,7 @@ import java.io.Serializable;
 
 public class Articulo implements Serializable{
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -7428757527789268930L;
 	
 	

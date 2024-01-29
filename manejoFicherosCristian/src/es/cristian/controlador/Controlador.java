@@ -19,7 +19,7 @@ public class Controlador {
 	//add
 	public void addArticulo(Articulo art) {
 		
-		//Recibo el objeto Artículo que rellene el usuario y lo añado en memoria
+		//Recibe el objeto Artículo que rellene el usuario y lo añado en memoria
 		//del ArrayList de Dao.
 		
 		daoArt.add(art);
@@ -27,7 +27,7 @@ public class Controlador {
 	
 	//delete
 	public void deleteArticulo(int id) {
-		//recibo la posición y elimino ese objeto del Array en Dao.
+		//recibe la posición y elimino ese objeto del Array en Dao.
 		daoArt.delete(id);
 	}
 		
@@ -38,8 +38,7 @@ public class Controlador {
 				return a;
 			}
 		}
-		//No se encontró
-		//System.out.println("No se encontró el artículo con ID: " + id);
+		
 		return null;
 	}
 	
