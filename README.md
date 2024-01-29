@@ -2,7 +2,7 @@
 # AE_1 Grupal. Manejo de ficheros
 
 
-
+![F1](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/1b9505be-f0cc-4460-b9a8-7af1c274c098)
 
 
 
@@ -17,7 +17,7 @@
 
 ## Repositorio Git:
 
-
+https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros.git
 
 
 
@@ -100,29 +100,38 @@ No se permite duplicar el id del artículo.
 ## Requerimiento 1:
 * Se ha creado una clase llamada Artículo con atributos: id, nombre, descripción, stock y precio. Se han implementado los métodos getters y setters, así también el método toString para facilitar la visualización de la información.
 
+  ![F2](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/be3e5314-0408-4184-8fd8-851f42ff4cbc)
+
 * Se ha creado la Clase AlmacenApp que contendrá el programa principal que incluye un menú interactivo con opciones para:
+
+ ![F3](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/a2ae8604-315a-4ca0-a58f-9e945bc05254) 
 
   Dado que el fichero articulos.dat no existe utilizamos la colección del arrayList disponible.
 
+![F4](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/7d1d74a7-2874-4076-bfc0-6ef969cee528)
 
 
 
+** Añadir nuevo artículo.
 
+![F5](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/66586316-416f-48d6-a723-4f147cb9f932)
 
+** Borrar artículo por id.
 
-* Añadir nuevo artículo.
+![F6](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/fd59b025-e63e-4dc9-9bc5-69c8c35ec8e8)
 
+** Consultar artículo por id.
 
-* Borrar artículo por id.
+![F7](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/b34ee376-0d38-49ef-9c15-752438e53996)
 
+** Listado de todos los artículos.
 
-* Consultar artículo por id.
+![F8](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f439c1bf-f9d7-4d63-9912-46e2b5661b61)
 
-* Listado de todos los artículos.
+** Terminar el programa. 
+Al seleccionar la opción 5 para terminar el programa, guarda la colección de artículos en el archivo articulos.dat
 
-* Terminar el programa. Al seleccionar la opción 5 para terminar el programa, guarda la colección de artículos en el archivo articulos.dat
-
-
+![F9](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f0fa9292-b691-4145-97fa-05b23ff6e591)
 
 
 
@@ -130,11 +139,14 @@ No se permite duplicar el id del artículo.
 ## Requerimiento 2:
 * Agregar una nueva opción en el menú para exportar los artículos a un archivo CSV.
 
+  ![F10](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/02df32f5-b081-4dc2-a64d-ce5491d800b2)
+
 * Implementar la lógica para crear el archivo articulos.csv y escribir la información de los artículos en formato CSV.
 
-
+![F11](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/152b877d-7b19-42ba-895d-702bea1a1cac)
 
 * Verificar que el archivo CSV creado se pueda abrir con un programa como Excel y verificar la Exportación.
+
 
 
 ## Requerimiento 3:
