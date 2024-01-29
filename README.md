@@ -98,150 +98,85 @@ No se permite duplicar el id del artículo.
 
 
 
-## Requerimiento 1:
+#### Requerimiento 1:
 Requerimiento 1:
 Se ha creado una clase llamada Artículo con atributos: id, nombre, descripción, stock y precio. Se han implementado los métodos getters y setters, así también el método toString para facilitar la visualización de la información.
 
 
-
+![C1](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/6cf8e655-fb97-4ee0-8c4e-e2fe2bde91c9)
 
 
 Se han creado las clases DaoArticulo para implementar la lógica del CRUD del menú y el almacenamiento de la información parcialmente  a través de un ArrayList. El Controlador, para facilitar la comunicación de la clase DAO con el menú. La clase CSVExport para alojar la lógica de exportación del archivo en formato CSV. Y la clase Main, que implementa la interfaz del menú y la inicialización de la aplicación.
 
+![C2](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/10fa8981-3096-456f-8779-a61bd06f3833)
 
+![C2 3](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/83d23fa3-7640-4c58-92d8-00de51450043)
 
+![C2 4](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/95452c64-2c14-4273-a57c-d854c80b8719)
 
-
-
-
-
-
-
+![C2 5](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/b3158249-92e5-4a87-8591-f56c4095c012)
 
 
 Implementación del Menú.
 
 
-Añadir nuevo artículo.
+1.  Añadir nuevo artículo.
 
 
+![C3](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/0627806e-bc8a-463f-9bf0-e3eac15b4626)
+
+2. Borrar artículo por id.
+
+![C4](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/5cb379bd-f157-43ab-ae01-5517a08190b7)
+
+3. Consultar artículo por id.
+
+![C5](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/d3599406-52cc-4143-8452-a7e77b62f290)
+
+4. Listado de todos los artículos.
+
+![C6](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/eed77201-ec4c-4261-bcc5-4a9517b3fcd8)
 
 
-Borrar artículo por id.
+5. Terminar el programa. Al seleccionar la opción 5 para terminar el programa, guarda la colección de artículos en el archivo articulos.dat
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Consultar artículo por id.
-
-
-Listado de todos los artículos.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Terminar el programa. Al seleccionar la opción 5 para terminar el programa, guarda la colección de artículos en el archivo articulos.dat
-
-
-
-
+![C7](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/2c40fdaa-c5ae-4318-85f7-d9902b9ff450)
 
 Al iniciar de nuevo el programa, se visualizan los datos que han persistido en ambos ficheros.
 
-
+![C8](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/744e46a4-6b64-4b76-ac94-ec00af0b953c)
 
 
 Si se decide borrar uno de los artículos, después terminar el programa y volver a arrancarlo, se mantienen los datos con el mismo estado que durante el guardado.
 
+![C9](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/8eca249d-22a6-4bfb-996f-9da23539ecec)
 
 
 
 
-
-Requerimiento 2:
+#### Requerimiento 2:
 Agregar una nueva opción en el menú para exportar los artículos a un archivo CSV.
 
+![C10](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/c8f1bd49-4884-460e-acfe-e32d79a8397f)
 
 Implementar la lógica para crear el archivo articulos.csv y escribir la información de los artículos en formato CSV.
 
-
-
-
-
-
-
-
-
-
+![C11](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/2e05f117-423f-4e59-8104-8e0a61e50e2f)
 
 
 Verificar que el archivo CSV creado se pueda abrir con un programa como Excel y verificar la Exportación.
 
+![C12](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/ed670394-fa1f-49bb-9146-71bd9077fa92)
 
-
-Requerimiento 3:
+#### Requerimiento 3:
 Implementar Validación de ID Único:
-Al solicitar un nuevo ID, verificar si ese ID ya existe en la colección de artículos.
+
+![C13](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/fc7b0482-c32c-4125-ba5b-6686116721f2)
+
+* Al solicitar un nuevo ID, verificar si ese ID ya existe en la colección de artículos.
 Los Artículos y su ID persisten. La asignación de ID la hace el sistema automáticamente para que no hay errores y posteriormente ese datos se guarda en el fichero y se verifica durante su futura lectura y escritura.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![C14](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/88a92659-2286-4d66-baf0-8931de69e37e)
 
 
 ## Conclusión:
