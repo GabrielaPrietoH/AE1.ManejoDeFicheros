@@ -104,34 +104,34 @@ No se permite duplicar el id del artículo.
 
 * Se ha creado la Clase AlmacenApp que contendrá el programa principal que incluye un menú interactivo con opciones para:
 
- ![F3](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/a2ae8604-315a-4ca0-a58f-9e945bc05254) 
+
 
   Dado que el fichero articulos.dat no existe utilizamos la colección del arrayList disponible.
 
-![F4](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/7d1d74a7-2874-4076-bfc0-6ef969cee528)
 
+ ![F3](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/a2ae8604-315a-4ca0-a58f-9e945bc05254) 
 
 
 ** Añadir nuevo artículo.
 
-![F5](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/66586316-416f-48d6-a723-4f147cb9f932)
+![F4](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/7d1d74a7-2874-4076-bfc0-6ef969cee528)
 
 ** Borrar artículo por id.
 
-![F6](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/fd59b025-e63e-4dc9-9bc5-69c8c35ec8e8)
+![F5](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/66586316-416f-48d6-a723-4f147cb9f932)
 
 ** Consultar artículo por id.
 
-![F7](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/b34ee376-0d38-49ef-9c15-752438e53996)
+![F6](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/fd59b025-e63e-4dc9-9bc5-69c8c35ec8e8)
 
 ** Listado de todos los artículos.
 
-![F8](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f439c1bf-f9d7-4d63-9912-46e2b5661b61)
+![F7](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/b34ee376-0d38-49ef-9c15-752438e53996)
 
 ** Terminar el programa. 
 Al seleccionar la opción 5 para terminar el programa, guarda la colección de artículos en el archivo articulos.dat
 
-![F9](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f0fa9292-b691-4145-97fa-05b23ff6e591)
+![F8](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f439c1bf-f9d7-4d63-9912-46e2b5661b61)
 
 
 
@@ -139,23 +139,25 @@ Al seleccionar la opción 5 para terminar el programa, guarda la colección de a
 ## Requerimiento 2:
 * Agregar una nueva opción en el menú para exportar los artículos a un archivo CSV.
 
-  ![F10](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/02df32f5-b081-4dc2-a64d-ce5491d800b2)
+ ![F9](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f0fa9292-b691-4145-97fa-05b23ff6e591)
 
 * Implementar la lógica para crear el archivo articulos.csv y escribir la información de los artículos en formato CSV.
 
-![F11](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/152b877d-7b19-42ba-895d-702bea1a1cac)
+ ![F10](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/02df32f5-b081-4dc2-a64d-ce5491d800b2)
 
 * Verificar que el archivo CSV creado se pueda abrir con un programa como Excel y verificar la Exportación.
 
-
+![F11](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/152b877d-7b19-42ba-895d-702bea1a1cac)
 
 ## Requerimiento 3:
 * Implementar Validación de ID Único:
-* Al solicitar un nuevo ID, verificar si ese ID ya existe en la colección de artículos.
+  Al solicitar un nuevo ID, verificar si ese ID ya existe en la colección de artículos.
 
-* No permitir la adición del nuevo artículo si el ID ya existe. Mostrar un mensaje de error en ese caso.
+  ![F12](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/d6d5f09e-b103-442d-8223-08e5c50dfc9e)
 
+ No permitir la adición del nuevo artículo si el ID ya existe. Mostrar un mensaje de error en ese caso.
 
+ ![F13](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/1da1801d-a29d-485c-8395-c21722d40a2e)
 
 
 
