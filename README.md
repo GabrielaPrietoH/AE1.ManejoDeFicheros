@@ -33,10 +33,10 @@
 
 
 ## Metodología:
-    La siguiente actividad realizada en grupo, trata sobre la construcción de la lógica de una aplicación de gestión de almacén, mediante el uso de Java como lenguaje y algunas de las clases de su API más importantes para la persistencia de los datos en memoria mediante ficheros, tanto en formato binario, como en formato CSV.
-    Partiendo del consenso mutuo entre los integrantes del grupo, se ha decidido realizar la aplicación de forma individual, para garantizar el aprendizaje profundo de los conceptos a tratar. Una vez se finalizó su desarrollo particular, se unificaron los resultados personales para decidir cuál de las opciones sería atribuida a la rama Main del trabajo colaborativo recogido en GitHub.
-    En esta ocasión, siendo conocedores de las particularidades del desarrollo de la actividad, se ha efectuado un desarrollo lógico basado en la eficiencia y claridad del código, así como en su modularidad. En este último caso, se ha efectuado una ejecución de las clases en forma compartimentada, tanto siguiendo un desarrollo mediante el patrón MVC, como un desarrollo original de la distribución de las clases. Ha sido este último patrón el elegido, debido a su buen funcionamiento y claridad.
-    Finalmente, todo el desarrollo ha sido recogido mediante esta memoria y protegido en el repositorio de GitHub aquí referenciado, donde se podrá visualizar el desarrollo individual de cada una de las ramas, con su respectiva exposición de la aplicación.
+  La siguiente actividad realizada en grupo, trata sobre la construcción de la lógica de una aplicación de gestión de almacén, mediante el uso de Java como lenguaje y algunas de las clases de su API más importantes para la persistencia de los datos en memoria mediante ficheros, tanto en formato binario, como en formato CSV.
+  Partiendo del consenso mutuo entre los integrantes del grupo, se ha decidido realizar la aplicación de forma individual, para garantizar el aprendizaje profundo de los conceptos a tratar. Una vez se finalizó su desarrollo particular, se unificaron los resultados personales para decidir cuál de las opciones sería atribuida a la rama Main del trabajo colaborativo recogido en GitHub.
+  En esta ocasión, siendo conocedores de las particularidades del desarrollo de la actividad, se ha efectuado un desarrollo lógico basado en la eficiencia y claridad del código, así como en su modularidad. En este último caso, se ha efectuado una ejecución de las clases en forma compartimentada, tanto siguiendo un desarrollo mediante el patrón MVC, como un desarrollo original de la distribución de las clases. Ha sido este último patrón el elegido, debido a su buen funcionamiento y claridad.
+   Finalmente, todo el desarrollo ha sido recogido mediante esta memoria y protegido en el repositorio de GitHub aquí referenciado, donde se podrá visualizar el desarrollo individual de cada una de las ramas, con su respectiva exposición de la aplicación.
     
     
     
@@ -80,6 +80,7 @@ El usuario interactuará con el programa a través del siguiente menú, que serv
 * Consulta artículo por id
 * Listado de todos los artículos
 * Terminar el programa
+  
 Nada más comenzar la ejecución del programa se debe verificar si existe el fichero artículos.dat (fichero que contendrá objetos ‘Artículo’). Si existe, debes leerlo para llenar una colección de tipo ArrayList con todos los objetos ‘Articulo’ existentes en el fichero. Si no existe el archivo, no tendrás nada que hacer por el momento, pero sí debes dejar la colección ArrayList disponible, aunque esté vacía.
 Las opciones del menú 1 a 5 trabajarán sobre la colección de tipo ArrayList para añadir, borrar, consultar o listar, y no sobre el fichero artículos.dat.
 Cuando el usuario decida terminar la ejecución del programa pulsando la opción 5, el programa deberá crear el fichero artículos.dat, sobreescribiendo el anterior si existiera. Se escribirán en el fichero tantos artículos como elementos tenga la colección ArrayList que has creado.
@@ -166,7 +167,7 @@ No se permite duplicar el id del artículo.
 
 
 
-Conclusión:
+## Conclusión:
 
 
 Con esta actividad, se han adquirido habilidades fundamentales para el desarrollo de aplicaciones Java centradas en la gestión de datos y la interacción con el usuario. Se comprendió la importancia de la persistencia de datos mediante la lectura y escritura en archivos, utilizando técnicas de serialización. La interacción con el usuario se mejoró mediante la implementación de una interfaz de consola que permite operaciones variadas sobre la colección de artículos, brindando una experiencia más completa.
