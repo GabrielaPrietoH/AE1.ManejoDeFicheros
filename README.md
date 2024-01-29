@@ -100,13 +100,13 @@ No se permite duplicar el id del artículo.
 
 #### Requerimiento 1:
 Requerimiento 1:
-Se ha creado una clase llamada Artículo con atributos: id, nombre, descripción, stock y precio. Se han implementado los métodos getters y setters, así también el método toString para facilitar la visualización de la información.
+* Se ha creado una clase llamada Artículo con atributos: id, nombre, descripción, stock y precio. Se han implementado los métodos getters y setters, así también el método toString para facilitar la visualización de la información.
 
 
 ![C1](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/6cf8e655-fb97-4ee0-8c4e-e2fe2bde91c9)
 
 
-Se han creado las clases DaoArticulo para implementar la lógica del CRUD del menú y el almacenamiento de la información parcialmente  a través de un ArrayList. El Controlador, para facilitar la comunicación de la clase DAO con el menú. La clase CSVExport para alojar la lógica de exportación del archivo en formato CSV. Y la clase Main, que implementa la interfaz del menú y la inicialización de la aplicación.
+* Se han creado las clases DaoArticulo para implementar la lógica del CRUD del menú y el almacenamiento de la información parcialmente  a través de un ArrayList. El Controlador, para facilitar la comunicación de la clase DAO con el menú. La clase CSVExport para alojar la lógica de exportación del archivo en formato CSV. Y la clase Main, que implementa la interfaz del menú y la inicialización de la aplicación.
 
 ![C2](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/10fa8981-3096-456f-8779-a61bd06f3833)
 
@@ -117,7 +117,7 @@ Se han creado las clases DaoArticulo para implementar la lógica del CRUD del me
 ![C2 5](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/b3158249-92e5-4a87-8591-f56c4095c012)
 
 
-Implementación del Menú.
+## Implementación del Menú.
 
 
 1.  Añadir nuevo artículo.
@@ -155,21 +155,21 @@ Si se decide borrar uno de los artículos, después terminar el programa y volve
 
 
 #### Requerimiento 2:
-Agregar una nueva opción en el menú para exportar los artículos a un archivo CSV.
+1. Agregar una nueva opción en el menú para exportar los artículos a un archivo CSV.
 
 ![C10](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/c8f1bd49-4884-460e-acfe-e32d79a8397f)
 
-Implementar la lógica para crear el archivo articulos.csv y escribir la información de los artículos en formato CSV.
+2. Implementar la lógica para crear el archivo articulos.csv y escribir la información de los artículos en formato CSV.
 
 ![C11](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/2e05f117-423f-4e59-8104-8e0a61e50e2f)
 
 
-Verificar que el archivo CSV creado se pueda abrir con un programa como Excel y verificar la Exportación.
+3. Verificar que el archivo CSV creado se pueda abrir con un programa como Excel y verificar la Exportación.
 
 ![C12](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/ed670394-fa1f-49bb-9146-71bd9077fa92)
 
 #### Requerimiento 3:
-Implementar Validación de ID Único:
+* Implementar Validación de ID Único:
 
 ![C13](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/fc7b0482-c32c-4125-ba5b-6686116721f2)
 
