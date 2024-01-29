@@ -104,7 +104,7 @@ No se permite duplicar el id del artículo.
 
 * Se ha creado la Clase AlmacenApp que contendrá el programa principal que incluye un menú interactivo con opciones para:
 
-
+![F](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/3735f8d9-3646-4ae0-ad9b-8c91cbe6ec63)
 
   Dado que el fichero articulos.dat no existe utilizamos la colección del arrayList disponible.
 
