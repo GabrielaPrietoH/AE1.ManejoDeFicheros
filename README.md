@@ -33,10 +33,11 @@ https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros.git
 
 
 ## Metodología:
-  La siguiente actividad realizada en grupo, trata sobre la construcción de la lógica de una aplicación de gestión de almacén, mediante el uso de Java como lenguaje y algunas de las clases de su API más importantes para la persistencia de los datos en memoria mediante ficheros, tanto en formato binario, como en formato CSV.
-  Partiendo del consenso mutuo entre los integrantes del grupo, se ha decidido realizar la aplicación de forma individual, para garantizar el aprendizaje profundo de los conceptos a tratar. Una vez se finalizó su desarrollo particular, se unificaron los resultados personales para decidir cuál de las opciones sería atribuida a la rama Main del trabajo colaborativo recogido en GitHub.
-  En esta ocasión, siendo conocedores de las particularidades del desarrollo de la actividad, se ha efectuado un desarrollo lógico basado en la eficiencia y claridad del código, así como en su modularidad. En este último caso, se ha efectuado una ejecución de las clases en forma compartimentada, tanto siguiendo un desarrollo mediante el patrón MVC, como un desarrollo original de la distribución de las clases. Ha sido este último patrón el elegido, debido a su buen funcionamiento y claridad.
-   Finalmente, todo el desarrollo ha sido recogido mediante esta memoria y protegido en el repositorio de GitHub aquí referenciado, donde se podrá visualizar el desarrollo individual de cada una de las ramas, con su respectiva exposición de la aplicación.
+La siguiente actividad realizada en grupo, trata sobre la construcción de la lógica de una aplicación de gestión de almacén, mediante el uso de Java como lenguaje y algunas de las clases de su API más importantes para la persistencia de los datos en memoria mediante ficheros, tanto en formato binario, como en formato CSV.
+Partiendo del consenso mutuo entre los integrantes del grupo, se ha decidido realizar la aplicación de forma individual, para garantizar el aprendizaje profundo de los conceptos a tratar. Una vez se finalizó su desarrollo particular, se unificaron los resultados personales para decidir cuál de las opciones sería atribuida a la rama Main del trabajo colaborativo recogido en GitHub.
+En esta ocasión, siendo conocedores de las particularidades del desarrollo de la actividad, se ha efectuado un desarrollo lógico basado en la eficiencia y claridad del código, así como en su modularidad. En este último caso, se ha efectuado una ejecución de las clases en forma compartimentada, tanto siguiendo un desarrollo mediante el patrón MVC, como un desarrollo original de la distribución de las clases. Ha sido elegido el patrón MVC, debido a su buen funcionamiento y claridad.
+Finalmente, todo el desarrollo ha sido recogido mediante esta memoria y protegido en el repositorio de GitHub aquí referenciado, donde se podrá visualizar el desarrollo individual de cada una de las ramas, con su respectiva exposición de la aplicación.
+
     
     
     
@@ -98,66 +99,128 @@ No se permite duplicar el id del artículo.
 
 
 ## Requerimiento 1:
-* Se ha creado una clase llamada Artículo con atributos: id, nombre, descripción, stock y precio. Se han implementado los métodos getters y setters, así también el método toString para facilitar la visualización de la información.
-
-  ![F2](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/be3e5314-0408-4184-8fd8-851f42ff4cbc)
-
-* Se ha creado la Clase AlmacenApp que contendrá el programa principal que incluye un menú interactivo con opciones para:
-
-![F](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/3735f8d9-3646-4ae0-ad9b-8c91cbe6ec63)
-
-  Dado que el fichero articulos.dat no existe utilizamos la colección del arrayList disponible.
-
-
- ![F3](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/a2ae8604-315a-4ca0-a58f-9e945bc05254) 
-
-
-** Añadir nuevo artículo.
-
-![F4](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/7d1d74a7-2874-4076-bfc0-6ef969cee528)
-
-** Borrar artículo por id.
-
-![F5](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/66586316-416f-48d6-a723-4f147cb9f932)
-
-** Consultar artículo por id.
-
-![F6](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/fd59b025-e63e-4dc9-9bc5-69c8c35ec8e8)
-
-** Listado de todos los artículos.
-
-![F7](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/b34ee376-0d38-49ef-9c15-752438e53996)
-
-** Terminar el programa. 
-Al seleccionar la opción 5 para terminar el programa, guarda la colección de artículos en el archivo articulos.dat
-
-![F8](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f439c1bf-f9d7-4d63-9912-46e2b5661b61)
+Requerimiento 1:
+Se ha creado una clase llamada Artículo con atributos: id, nombre, descripción, stock y precio. Se han implementado los métodos getters y setters, así también el método toString para facilitar la visualización de la información.
 
 
 
 
-## Requerimiento 2:
-* Agregar una nueva opción en el menú para exportar los artículos a un archivo CSV.
 
- ![F9](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/f0fa9292-b691-4145-97fa-05b23ff6e591)
+Se han creado las clases DaoArticulo para implementar la lógica del CRUD del menú y el almacenamiento de la información parcialmente  a través de un ArrayList. El Controlador, para facilitar la comunicación de la clase DAO con el menú. La clase CSVExport para alojar la lógica de exportación del archivo en formato CSV. Y la clase Main, que implementa la interfaz del menú y la inicialización de la aplicación.
 
-* Implementar la lógica para crear el archivo articulos.csv y escribir la información de los artículos en formato CSV.
 
- ![F10](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/02df32f5-b081-4dc2-a64d-ce5491d800b2)
 
-* Verificar que el archivo CSV creado se pueda abrir con un programa como Excel y verificar la Exportación.
 
-![F11](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/152b877d-7b19-42ba-895d-702bea1a1cac)
 
-## Requerimiento 3:
-* Implementar Validación de ID Único:
-  Al solicitar un nuevo ID, verificar si ese ID ya existe en la colección de artículos.
 
-  ![F12](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/d6d5f09e-b103-442d-8223-08e5c50dfc9e)
 
- No permitir la adición del nuevo artículo si el ID ya existe. Mostrar un mensaje de error en ese caso.
 
- ![F13](https://github.com/GabrielaPrietoH/AE1.ManejoDeFicheros/assets/124418682/1da1801d-a29d-485c-8395-c21722d40a2e)
+
+
+
+
+Implementación del Menú.
+
+
+Añadir nuevo artículo.
+
+
+
+
+Borrar artículo por id.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consultar artículo por id.
+
+
+Listado de todos los artículos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terminar el programa. Al seleccionar la opción 5 para terminar el programa, guarda la colección de artículos en el archivo articulos.dat
+
+
+
+
+
+Al iniciar de nuevo el programa, se visualizan los datos que han persistido en ambos ficheros.
+
+
+
+
+Si se decide borrar uno de los artículos, después terminar el programa y volver a arrancarlo, se mantienen los datos con el mismo estado que durante el guardado.
+
+
+
+
+
+
+Requerimiento 2:
+Agregar una nueva opción en el menú para exportar los artículos a un archivo CSV.
+
+
+Implementar la lógica para crear el archivo articulos.csv y escribir la información de los artículos en formato CSV.
+
+
+
+
+
+
+
+
+
+
+
+
+Verificar que el archivo CSV creado se pueda abrir con un programa como Excel y verificar la Exportación.
+
+
+
+Requerimiento 3:
+Implementar Validación de ID Único:
+Al solicitar un nuevo ID, verificar si ese ID ya existe en la colección de artículos.
+Los Artículos y su ID persisten. La asignación de ID la hace el sistema automáticamente para que no hay errores y posteriormente ese datos se guarda en el fichero y se verifica durante su futura lectura y escritura.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
